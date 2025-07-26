@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>お問い合わせ | さかなコンサルタント</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-primary fw-bold" href="index.html">さかなコンサルタント</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">トップ</a></li>
+          <li class="nav-item"><a class="nav-link" href="cutting.html">魚の捌き方</a></li>
+          <li class="nav-item"><a class="nav-link" href="procurement.html">魚の仕入れ</a></li>
+          <li class="nav-item"><a class="nav-link" href="catering.html">ケータリング</a></li>
+          <li class="nav-item"><a class="nav-link" href="tour.html">市場ツアー</a></li>
+          <li class="nav-item"><a class="nav-link" href="package.html">パッケージ商品</a></li>
+          <li class="nav-item"><a class="nav-link" href="export.html">海外輸出</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.html">プロフィール</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- メイン -->
+  <main class="container py-5 mt-5">
+
+    <h1 class="section-title">お問い合わせ</h1>
+
+    <div class="row align-items-center mb-5">
+      <div class="col-md-4 text-center">
+        <img src="images/contact.jpeg" alt="お問い合わせ" class="img-fluid rounded shadow-sm" style="max-width: 280px;">
+      </div>
+      <div class="col-md-8">
+        <p>ご相談・ご依頼は、InstagramのDM、電話番号または下記メールアドレスまでお気軽にご連絡ください。</p>
+        <p><strong> メールアドレス：</strong> kappasan0502da@hotmail.co.jp</p>
+        <p><strong> 電話番号：</strong> 080-3859-0380</p>
+        <p><strong> Instagram：</strong> <a href="https://www.instagram.com/tanno_fishlife" target="_blank">@さかなの丹野</a></p>
+      </div>
+    </div>
+
+    <!-- よくある質問（FAQ） -->
+    <section class="mb-5">
+      <h2 class="section-title">よくある質問</h2>
+
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq1-heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+              魚に詳しくなくても依頼できますか？
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse " aria-labelledby="faq1-heading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              はい、もちろん可能です。初心者の方や魚に興味を持ち始めた方も大歓迎です。ご要望に応じてわかりやすく丁寧にご説明します。
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq2-heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+              オンラインでの相談は可能ですか？
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              はい、ZoomやLINEなどを使ったオンライン相談も受け付けています。日時については事前にご相談ください。
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faq3-heading">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+              対応地域はどこまでですか？
+            </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              全国対応可能です。出張の場合は交通費を別途ご相談させていただきます。
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer-custom text-center py-4 border-top">
+    <div class="footer-content d-flex justify-content-center align-items-center">
+      <img src="images/icon.jpeg" alt="丹野涼" class="footer-icon me-2" />
+      <div>
+        <p class="mb-0">&copy; 2025 さかなコンサルタント | 丹野涼</p>
+        <small class="text-muted">All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
