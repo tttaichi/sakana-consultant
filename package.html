@@ -11,27 +11,54 @@
 <body>
 
   <!-- ナビゲーション -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-    <div class="container">
-      <a class="navbar-brand text-primary fw-bold" href="index.html">さかなコンサルタント</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="ナビゲーション切替">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">トップ</a></li>
+  <nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand text-primary fw-bold" href="index.html">さかなコンサルタント</a>
+
+    <!-- ハンバーガーアイコン（小画面のみ表示） -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar" aria-label="メニューを開く">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- 横並びメニュー（大画面用） -->
+    <div class="collapse navbar-collapse d-none d-lg-block">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">トップ</a></li>
+        <li class="nav-item"><a class="nav-link" href="cutting.html">魚の捌き方</a></li>
+        <li class="nav-item"><a class="nav-link" href="procurement.html">魚の仕入れ</a></li>
+        <li class="nav-item"><a class="nav-link" href="catering.html">ケータリング</a></li>
+        <li class="nav-item"><a class="nav-link" href="tour.html">市場ツアー</a></li>
+        <li class="nav-item"><a class="nav-link" href="package.html">パッケージ商品</a></li>
+        <li class="nav-item"><a class="nav-link" href="export.html">海外輸出</a></li>
+        <li class="nav-item"><a class="nav-link" href="profile.html">プロフィール</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+
+    <!-- オフキャンバスメニュー（小画面用） -->
+    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar"
+      aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">メニュー</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="閉じる"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item"><a class="nav-link active" href="index.html">トップ</a></li>
           <li class="nav-item"><a class="nav-link" href="cutting.html">魚の捌き方</a></li>
           <li class="nav-item"><a class="nav-link" href="procurement.html">魚の仕入れ</a></li>
           <li class="nav-item"><a class="nav-link" href="catering.html">ケータリング</a></li>
           <li class="nav-item"><a class="nav-link" href="tour.html">市場ツアー</a></li>
-          <li class="nav-item"><a class="nav-link active" href="package.html">パッケージ商品</a></li>
+          <li class="nav-item"><a class="nav-link" href="package.html">パッケージ商品</a></li>
           <li class="nav-item"><a class="nav-link" href="export.html">海外輸出</a></li>
           <li class="nav-item"><a class="nav-link" href="profile.html">プロフィール</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">お問い合わせ</a></li>
         </ul>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
 <main class="container py-5">
     <h2 class="section-title">パッケージ商品（構想中）</h2>
@@ -66,3 +93,4 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
