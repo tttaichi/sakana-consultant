@@ -267,9 +267,11 @@ nav.navbar {
   left: 0;
   width: 100%;
   z-index: 1030;
-  height: 60px;
+  height: 65px;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding-top: 0.3rem;   /* デフォルトより少し狭め */
+  padding-bottom: 0.3rem;
 }
 nav.navbar .container {
   height: 100%;
@@ -365,4 +367,9 @@ footer,
     width: 100%;
     height: auto;
   }
+
+  .offcanvas {
+    top: 40px; /* 適宜調整 */
+  }
+
 }
