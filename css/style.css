@@ -91,7 +91,6 @@ h1, h2, h3, h4 {
   margin-bottom: 40px;
   padding-left: 20px;
 }
-
 .profile-header h2 {
   font-size: 1.8rem;
   color: #0077b6;
@@ -100,12 +99,11 @@ h1, h2, h3, h4 {
 }
 
 .profile-name {
-  font-size: 1.5rem; /* ← 少し小さめに調整 */
+  font-size: 1.5rem;
   font-weight: 700;
   color: #0077b6;
   margin-bottom: 8px;
 }
-
 .profile-name-en {
   font-size: 1rem;
   color: #666;
@@ -143,7 +141,6 @@ h1, h2, h3, h4 {
   color: #333;
   margin-bottom: 0;
 }
-
 .profile-intro p {
   margin-bottom: 1.2rem;
 }
@@ -173,13 +170,11 @@ h1, h2, h3, h4 {
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
-
 .profile-table td {
   padding: 12px 15px;
   border-bottom: 1px solid #e9ecef;
   font-size: 0.95rem;
 }
-
 .profile-table td:first-child {
   background-color: #f8f9ff;
   font-weight: 600;
@@ -187,11 +182,9 @@ h1, h2, h3, h4 {
   width: 100px;
   white-space: nowrap;
 }
-
 .profile-table td:last-child {
   color: #444;
 }
-
 .profile-table tr:last-child td {
   border-bottom: none;
 }
@@ -334,10 +327,18 @@ footer,
     text-align: center;
   }
 
+  .profile-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
   .profile-image-new {
     width: 280px;
     height: 350px;
     margin: 0 auto;
+    display: block;
   }
 
   .profile-content {
@@ -365,4 +366,3 @@ footer,
     height: auto;
   }
 }
-
