@@ -99,7 +99,7 @@ h1, h2, h3 {
 }
 
 .profile-name {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   color: #0077b6;
   margin-bottom: 8px;
@@ -374,4 +374,5 @@ h2, h4 {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
 
